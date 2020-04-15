@@ -63,7 +63,7 @@ public class Main {
 
         String OldElonText= "";
         while (true) {
-            //format the time of last tweet written
+            //format time of last tweet written
             driver.navigate().refresh();
             String SinceLastTweetPath = "//*[@id=\"react-root\"]/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div/div[2]/section/div/div/div/div[2]/div/div/div/article/div/div[2]/div[2]/div[1]/div/div/div[1]/a/time";
             new WebDriverWait(driver, 10).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(SinceLastTweetPath)));
