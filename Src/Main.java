@@ -136,7 +136,7 @@ public class Main {
 
             String replyButton = "//*[@id=\"react-root\"]/div/div/div[1]/div[2]/div/div/div/div[2]/div[2]/div/div[3]/div/div/div/div[2]/div/div/div/div/div[2]/div[2]/div/div/div[2]/div[2]/div/span/span";
             driver.findElement(By.xpath(replyButton)).click();
-            System.out.print("Successfully uploaded image :D");
+            System.out.println("Successfully uploaded image :D");
             Thread.sleep(3000); //wait 3 seconds before refreshing
         }
     }
