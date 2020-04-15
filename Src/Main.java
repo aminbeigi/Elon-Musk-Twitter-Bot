@@ -14,9 +14,9 @@ import static java.awt.event.KeyEvent.*;
 
 /*
 * This script requires input of:
-* username (LINE 56)
-* password (LINE 61)
-* image directory (LINE 113, 114)
+* username (LINE 54)
+* password (LINE 59)
+* image directory (LINE 111, 112)
 */
 
 public class Main {
