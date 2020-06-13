@@ -90,7 +90,7 @@ public class Main {
                 continue;
             }
 
-            //click on reply icon (only loops once)
+            // click on reply icon (only loops once)
             try {
                 String replyTweetPath = "//*[@id=\"react-root\"]/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/div/div[2]/section/div/div/div/div[2]/div/div/div/article/div/div[2]/div[2]/div[2]/div[3]/div[1]/div";
                 new WebDriverWait(driver, 1).until(ExpectedConditions.visibilityOfElementLocated(By.xpath(replyTweetPath)));
@@ -107,7 +107,7 @@ public class Main {
 
             // uploading image (ElonMeme.png and ElonSmoke.png)
             Thread.sleep(1000);
-            //insert image directories
+            // insert image directories
             String filePath = "FILEPATH"; 
             String filePath2 = "FILEPATH2";
 
