@@ -97,7 +97,6 @@ public class Main {
                 driver.findElement(By.xpath(replyTweetPath)).click();
             }
             catch(Exception e) {
-                ;
             }
 
             // click on the upload image button
@@ -142,3 +141,4 @@ public class Main {
         }
     }
 }
+ 
