@@ -7,3 +7,5 @@ A Java-based program that uploads images (ElonMeme.png or ElonSmoke.png) replyin
 - A Twitter account
 ## Example Gif
 ![](https://i.imgur.com/9chojWO.gif)
+## Licence
+Free to use.
